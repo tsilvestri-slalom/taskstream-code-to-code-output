@@ -1,0 +1,12 @@
+{
+    "raw_content": "{\"content\":\"import React, { useState } from 'react';\\nimport { StyledWrapper } from './App.styled';\\nimport MyComponent from './MyComponent';\\n\\nconst App = () => {\\n  const [selectedItem, setSelectedItem] = useState(null);\\n  const title = 'Simple React App (Multiple-File)';\\n  const items = ['Item 1', 'Item 2', 'Item 3'];\\n\\n  const selectItem = (item) => {\\n    setSelectedItem(item);\\n  };\\n\\n  return (\\n    <StyledWrapper>\\n      <MyComponent \\n        title={title} \\n        items={items} \\n        selectedItem={selectedItem} \\n        selectItem={selectItem} \\n      />\\n    </StyledWrapper>\\n  );\\n};\\n\\nexport default App;\"}",
+    "metadata": {
+        "id": "4cbd67f0-583b-4710-8a76-cdc8e3e6832b",
+        "name": "App.js",
+        "provider_name": "local-output",
+        "type": "file",
+        "external_identifier": null,
+        "external_link": null
+    },
+    "content": "import React, { useState } from 'react';\nimport { StyledWrapper } from './App.styled';\nimport MyComponent from './MyComponent';\n\nconst App = () => {\n  const [selectedItem, setSelectedItem] = useState(null);\n  const title = 'Simple React App (Multiple-File)';\n  const items = ['Item 1', 'Item 2', 'Item 3'];\n\n  const selectItem = (item) => {\n    setSelectedItem(item);\n  };\n\n  return (\n    <StyledWrapper>\n      <MyComponent \n        title={title} \n        items={items} \n        selectedItem={selectedItem} \n        selectItem={selectItem} \n      />\n    </StyledWrapper>\n  );\n};\n\nexport default App;"
+}

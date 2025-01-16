@@ -1,0 +1,12 @@
+{
+    "raw_content": "{\"content\":\"import React from 'react';\\n\\nconst MyComponent = ({ title, items, selectedItem, selectItem }) => (\\n  <div className=\\\"container\\\">\\n    <h1>{title}</h1>\\n    <ul>\\n      {items.map((item, index) => (\\n        <li key={index} onClick={() => selectItem(item)}>\\n          {item}\\n        </li>\\n      ))}\\n    </ul>\\n    {selectedItem && (\\n      <div className=\\\"selected-item\\\">\\n        <p>You selected: {selectedItem}</p>\\n      </div>\\n    )}\\n  </div>\\n);\\n\\nexport default MyComponent;\"}",
+    "metadata": {
+        "id": "e0fc1772-2335-4ba0-b102-e1ccdc6b1a35",
+        "name": "MyComponent.js",
+        "provider_name": "local-output",
+        "type": "file",
+        "external_identifier": null,
+        "external_link": null
+    },
+    "content": "import React from 'react';\n\nconst MyComponent = ({ title, items, selectedItem, selectItem }) => (\n  <div className=\"container\">\n    <h1>{title}</h1>\n    <ul>\n      {items.map((item, index) => (\n        <li key={index} onClick={() => selectItem(item)}>\n          {item}\n        </li>\n      ))}\n    </ul>\n    {selectedItem && (\n      <div className=\"selected-item\">\n        <p>You selected: {selectedItem}</p>\n      </div>\n    )}\n  </div>\n);\n\nexport default MyComponent;"
+}

@@ -1,0 +1,12 @@
+{
+    "raw_content": "{\"content\": \"import styled from 'styled-components';\\n\\nexport const StyledWrapper = styled.div`\\n  font-family: Arial, sans-serif;\\n  width: 800px;\\n  margin: 0 auto;\\n  padding: 16px;\\n  box-sizing: border-box;\\n\\n  ul {\\n    list-style-type: none;\\n    padding: 0;\\n\\n    li {\\n      cursor: pointer;\\n      padding: 5px;\\n      border: 1px solid #ddd;\\n      margin: 5px 0;\\n      border-radius: 4px;\\n      transition: background-color 0.3s ease;\\n\\n      &:hover {\\n        background-color: #f0f0f0;\\n      }\\n    }\\n  }\\n\\n  .selected-item {\\n    margin-top: 20px;\\n    padding: 10px;\\n    border: 1px solid #aaa;\\n    background-color: #f9f9f9;\\n    border-radius: 4px;\\n  }\\n`\"}",
+    "metadata": {
+        "id": "3e88d38b-8eec-48b1-8578-dbbb92d19fb1",
+        "name": "App.styled.js",
+        "provider_name": "local-output",
+        "type": "file",
+        "external_identifier": null,
+        "external_link": null
+    },
+    "content": "import styled from 'styled-components';\n\nexport const StyledWrapper = styled.div`\n  font-family: Arial, sans-serif;\n  width: 800px;\n  margin: 0 auto;\n  padding: 16px;\n  box-sizing: border-box;\n\n  ul {\n    list-style-type: none;\n    padding: 0;\n\n    li {\n      cursor: pointer;\n      padding: 5px;\n      border: 1px solid #ddd;\n      margin: 5px 0;\n      border-radius: 4px;\n      transition: background-color 0.3s ease;\n\n      &:hover {\n        background-color: #f0f0f0;\n      }\n    }\n  }\n\n  .selected-item {\n    margin-top: 20px;\n    padding: 10px;\n    border: 1px solid #aaa;\n    background-color: #f9f9f9;\n    border-radius: 4px;\n  }\n`"
+}
